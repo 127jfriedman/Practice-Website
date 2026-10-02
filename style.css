@@ -19,9 +19,11 @@ img {
     width: 25%;
     height: 25%;
 }
+/*Attribute based selector*/
 a[href *= "https://frhsd.com"] {
     color: limegreen;
 }
+/*Direct child selector*/
 ul>li:first-child {
     color: fuchsia;
 }
@@ -31,12 +33,14 @@ a:visited {
 li:hover {
     background-color: navy;
 }
+/*Nested selector*/
 div {
     li {
         font-family: Calibri;
         font-size: medium;
     }
 }
+/*Next sibling selector*/
 li+li {
     color: brown;
 }
